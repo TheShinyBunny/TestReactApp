@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.shoppingItem {
+  width: max-content;
+}
+
+.shoppingItem:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
